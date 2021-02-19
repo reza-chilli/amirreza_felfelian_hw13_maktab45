@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    
+  </head>
+  <body>
+    <!--------------------------------------------------------------------------------------- navigation bar --------------------------------------------------------------------------------------->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="/home"
+            >Home <span class="sr-only">(current)</span></a
+          >
+          <a class="nav-item nav-link" href="/about">about</a>
+          <a class="nav-item nav-link" href="/contact">contact</a>
+        </div>
+      </div>
+    </nav>
+    <!------------------------------------------------------------------------- end of navigation bar ------------------------------------------------------------------------->
+    <!----------------------------------------------------------------- main section ----------------------------------------------------------------->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mt-3">
+          <div class="card">
+            <img class="card-img-top" src="https://www.cstatic-images.com/car-pictures/main/USD00AUC181A021001.png" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">2021 Audi S5</h5>
+              <p class="card-text">
+                "$52,500 — $60,600"
+              </p>
+              <a href="/car" class="btn btn-primary" id="car1" onclick = 'localStore(this)'>more info</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mt-3">
+          <div class="card">
+            <img class="card-img-top" src="https://www.cstatic-images.com/car-pictures/main/USD00AUC031A021001.png" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">2021 Audi S6</h5>
+              <p class="card-text">
+                $74,400 — $74,400
+              </p>
+              <a href="/car" class="btn btn-primary" id="car2" onclick = 'localStore(this)'>more info</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mt-3">
+          <div class="card">
+            <img class="card-img-top" src="https://www.cstatic-images.com/car-pictures/main/USD00AUC301A021001.png" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">2021 Audi S7</h5>
+              <p class="card-text">
+                $84,400 — $84,400
+              </p>
+              <a href="/car" class="btn btn-primary" id="car3" onclick = 'localStore(this)'>more info</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 mt-3">
+          <div class="card">
+            <img class="card-img-top" src="https://www.cstatic-images.com/car-pictures/main/CAC90AUC112A021001.png" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">2021 Audi TT</h5>
+              <p class="card-text">
+                $49,800 — $53,900
+              </p>
+              <a href="/car" class="btn btn-primary" id="car4" onclick = 'localStore(this)'>more info</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mt-3">
+          <div class="card">
+            <img class="card-img-top" src="https://www.cstatic-images.com/car-pictures/main/USC90AUC271A021001.png" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">2021 Audi TT RS</h5>
+              <p class="card-text">
+                $72,500 — $72,500
+              </p>
+              <a href="/car" class="btn btn-primary" id="car5" onclick = 'localStore(this)'>more info</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mt-3">
+          <div class="card">
+            <img class="card-img-top" src="https://www.cstatic-images.com/car-pictures/main/USC90AUC252A021001.png" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">2021 Audi TTS</h5>
+              <p class="card-text">
+                $59,500 — $59,500
+              </p>
+              <a href="/car" class="btn btn-primary" id="car6" onclick = 'localStore(this)'>more info</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------------------------------------------------------------------- end of main section -------------------------------------------------------------------->
+    <script src="data.js"></script>
+  </body>
+</html>

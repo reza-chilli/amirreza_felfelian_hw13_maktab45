@@ -1,0 +1,17 @@
+[
+ {
+   "uid":"1",
+   "Username":"ali mahmoudi",
+   "passWord":"1234"
+ },
+ {
+  "uid":"2",
+  "Username":"reza rezai",
+  "passWord":"123"
+},
+{
+  "uid":"3",
+  "Username":"amir amiri",
+  "passWord":"234"
+}
+]

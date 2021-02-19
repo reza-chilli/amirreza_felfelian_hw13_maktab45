@@ -1,0 +1,38 @@
+[
+  {
+    "name": "2021 Audi S5",
+    "price": "$52,500 — $60,600",
+    "photo": "https://www.cstatic-images.com/car-pictures/main/USD00AUC181A021001.png",
+    "description": "Like the A4 from which it’s derived, the Audi A5 received a subtle makeover for 2020. It’s offered in three distinct body styles — coupe, convertible and four-door hatchback (Sportback) — and all of them come with standard all-wheel drive."
+  },
+  {
+    "name": "2021 Audi S6",
+    "price": "$74,400 — $74,400",
+    "photo": "https://www.cstatic-images.com/car-pictures/main/USD00AUC031A021001.png",
+    "description": "The Audi A6 is a mid-size luxury sedan that bridges the gap between the German automaker’s smaller A4 sedan and the full-size A8 sedan. Engines range from mild to wild, with the S6’s 444-horsepower, twin-turbocharged 2.9-liter V-6 falling into the latter category."
+  },
+  {
+    "name": "2021 Audi S7",
+    "price": "$84,400 — $84,400",
+    "photo": "https://www.cstatic-images.com/car-pictures/main/USD00AUC301A021001.png",
+    "description": "The Audi A7 is a five-seat mid-size luxury car that blends coupelike design and hatchback versatility. It’s powered by a 335-horsepower, turbocharged 3.0-liter V-6 engine that works with a seven-speed dual-clutch automatic transmission; all-wheel drive is standard."
+  },
+  {
+    "name": "2021 Audi TT",
+    "price": "$49,800 — $53,900",
+    "photo": "https://www.cstatic-images.com/car-pictures/main/CAC90AUC112A021001.png",
+    "description": "The Audi TT comes as a four-seat coupe or two-seat roadster. Both have a standard turbocharged 2.0-liter four-cylinder engine that delivers 228 horsepower. This engine pairs with a seven-speed dual-clutch automatic transmission, and all-wheel drive is standard. The more powerful TTS coupe is powered by a 288-hp, turbo four-cylinder."
+  },
+  {
+    "name": "2021 Audi TT RS",
+    "price": "$72,500 — $72,500",
+    "photo": "https://www.cstatic-images.com/car-pictures/main/USC90AUC271A021001.png",
+    "description": "The Audi TT comes as a four-seat coupe or two-seat roadster. Both have a standard turbocharged 2.0-liter four-cylinder engine that delivers 228 horsepower. This engine pairs with a seven-speed dual-clutch automatic transmission, and all-wheel drive is standard. The more powerful TTS coupe is powered by a 288-hp, turbo four-cylinder."
+  },
+  {
+    "name":"2021 Audi TTS",
+    "price":"$59,500 — $59,500",
+    "photo":"https://www.cstatic-images.com/car-pictures/main/USC90AUC252A021001.png",
+    "description":"The Audi TT comes as a four-seat coupe or two-seat roadster. Both have a standard turbocharged 2.0-liter four-cylinder engine that delivers 228 horsepower. This engine pairs with a seven-speed dual-clutch automatic transmission, and all-wheel drive is standard. The more powerful TTS coupe is powered by a 288-hp, turbo four-cylinder."
+  }
+]

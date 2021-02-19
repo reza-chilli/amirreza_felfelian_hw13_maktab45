@@ -1,0 +1,10 @@
+host:get,post
+HTTP Host header یکی از درخواست‌ های الزامی برای برقراری ارتباط کلاینت با سرور است. Header، نام دامنه‌ ای که کلاینت قصد دسترسی به آن را دارد مشخص می‌کند.
+referer:get
+اپشنال است و مشخص کننده پیج قبلی که کاربر در ان بوده است
+accept encoding:post
+content type:get
+content-length:post,get
+content range:post,get
+last modified:get
+cache control:post,get
